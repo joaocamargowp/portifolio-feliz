@@ -15,7 +15,7 @@ nav {
     text-align: end;
 }
 
-a { 
+.link-header { 
     display: inline-flex;
     align-items: center;
     margin-right: 30px;
@@ -34,16 +34,17 @@ a {
     height: 10px;
     background-color: #0000CD;
     margin-right: 10px;
+    transition: .2s ease-in-out;
 
 }
 
 .pont:hover::before {
     background-color: #00BFFF;
-    transition: .2s ease-in-out;
+    
   
-}
+}                    
 
-#button1 {
+.button1 {
     display: inline-block;
     line-height: 60px;
     padding-right: 20px;
@@ -52,11 +53,93 @@ a {
     margin-right: 20px;
     background-color:#0000CD;
     box-shadow: 5px 5px 0px black;
+    transition: .2s ease-in-out;
 }
 
 
-#button1:hover {
+.button1:hover {
     background-color: #00BFFF;
+
+}
+
+.img-fundo {
+    position: absolute;
+}
+
+.blur {
+    position: absolute;
+    border-right: 5px solid black;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    background-color: #3A4042;
+    left: 90px; 
+    top: 196px;
+    box-shadow: 5px 5px 0px black;
+
+}
+
+.name {
+    margin-top: 42px;
+    font-size: 40px;
+    color: #0000CD;
+    text-shadow: 5px 5px 0px black;
+    font-family: "Press Start 2P";
+    
+}
+
+.sub-name {
+    position: absolute;
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    color: white;
+    text-shadow: 5px 5px 0px black;
+    margin-top: 110px;
+}
+
+
+
+.second-button {
+    position: absolute;
+    display: flex;
+    line-height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:#0000CD;
+    box-shadow: 0px 4px 0px black;
+    top: 418px;
+    left: 180px;
+    transition: .2s ease-in-out;
+}
+
+
+.second-link {
+    position: absolute;
+    display: flex;
+    line-height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:#0000CD;
+    box-shadow: 5px 5px 0px black;
+    top: 418px;
+    left: 462px;
     transition: .2s ease-in-out;
 
 }
+
+.second-link:hover {
+    background-color: #00BFFF;
+    transition: .2s ease-in-out;
+}
+
+.second-button:hover {
+    background-color: #00BFFF;
+    transition: .2s ease-in-out;
+}
+
