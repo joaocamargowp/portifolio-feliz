@@ -1,0 +1,38 @@
+.container {
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 627px;
+    height: 184px;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0px black;
+    gap: 28px;
+
+}
+
+.name {
+    margin-top: 42px;
+    font-size: 40px;
+    color: #0000CD;
+    text-shadow: 5px 5px 0px black;
+    font-family: "Press Start 2P";
+}
+
+.sub-name {
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    color: white;
+    text-shadow: 5px 5px 0px black;
+}
+
+.sub-button {
+    display: flex;
+    gap: 112px;
+    margin-top: 38px;
+}

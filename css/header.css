@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #4169E1;
+    border-bottom: 10px solid black;
+}
+
+#icon-header {
+    height: 60px;
+    margin-left: 10px;
+}
