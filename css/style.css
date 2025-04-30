@@ -1,5 +1,9 @@
 .banner { 
+<<<<<<< HEAD
     background-image: url(/img/banner.png);
+=======
+    background-image: url(img/Group\ 1.png);
+>>>>>>> 37a5c6c509bb63ac1cba0540cae6161450062d71
     background-repeat: no-repeat;
     background-size: 100%;
     height: 685px;
