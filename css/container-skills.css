@@ -1,0 +1,51 @@
+.skills{
+    display: block;
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    color: white;
+}
+
+.coluna-2 {
+    margin-left: 90px;
+}
+
+.container-skills {
+    margin: auto;
+    display: flex;
+    width: 960px;
+    height: 480px;
+    margin-top: 60px;
+}
+
+
+.text-skills {
+    color: white;
+    font-family: "Press Start 2P";
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+
+.barra {
+    width: 320px;
+    height: 35px;
+    border: solid 5px;
+    margin-top: 16px;
+    margin-left: 25px;
+    background: linear-gradient(to right, #7C5E99 70%, white 30%)
+}
+
+
+.box-skills {
+    display: flex;
+    width: 430px;
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+.img-54 {
+    height: 54px;
+}
+
+
