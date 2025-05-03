@@ -8,12 +8,14 @@
 
                      <!--css import-->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">   
+    <link rel="stylesheet" href="css/sections.css">   
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/links.css">
     <link rel="stylesheet" href="css/conteiner.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/container-skills.css">
+    <link rel="stylesheet" href="css/top-text.css">
+    <link rel="stylesheet" href="css/projects.css">
 
 
                       <!--Google fonts-->      
@@ -28,6 +30,7 @@
 </head>
 
 <body>
+
     <header>
         <img src="img/joao-icon.png" alt="" id = "icon-header">
 
@@ -48,7 +51,7 @@
                 <div class="container-text">
 
                     <h1 class="name">João Felipe</h1>
-                    <h1 class="sub-name">FrontEnd Developer</h1>
+                    <h2 class="sub-name">FrontEnd Developer</h2>
 
                     <div class="sub-button">
                         <a href="" class="first-button link">Download CV</a>
@@ -60,16 +63,14 @@
             </div>
         </section> 
 
-        <section class="banner-2">
-            <h1 class="skills">Skills</h1>
+        <section class="section-skills">
 
+            <h3 class="top-text">Skills</h3>
 
             <div class="container-skills">
 
-                <div>
-
-
-                    <div class="box-skills">
+                <div class="coluna-1">
+                    <article class="box-skills">
 
                         <img src="img/ico_html5.png" alt="">
 
@@ -78,76 +79,79 @@
 
                             <div class="barra"></div>
                         </div>
-                    </div>
-
-
-
-                    <div class="box-skills">
+                    </article>
+                    <article class="box-skills">
                         <img src="img/ico_css3.png" alt="">
 
                         <div>
                             <h1 class="text-skills">CSS</h1>
                             <div class="barra"></div>
                         </div>
-                    </div>
-
-                    <div class="box-skills">
+                    </article>
+                    <article class="box-skills">
                         <img src="img/ico_js.png" alt="">
 
                         <div>
                             <h1 class="text-skills">JavaScript</h1>
                             <div class="barra"></div>
                         </div>
-                    </div>
-
-                    <div class="box-skills">
+                    </article>
+                    <article class="box-skills">
                         <img src="img/ico_react.png" alt="">
 
                         <div>
                             <h1 class="text-skills">REACT</h1>
                             <div class="barra"></div>
                         </div>
-                    </div>
-            </div>
-
+                    </article>
+                </div>
             <div class="coluna-2">
-                <div class="box-skills">
+                <article class="box-skills">
                     <img src="img/ico_nodejs.png" alt="" class="img-skills">
 
                     <div>
                         <h1 class="text-skills"> NodeJS</h1>
                         <div class="barra"></div>
                     </div>
-                </div>
-                <div class="box-skills">
+                </article>
+                <article class="box-skills">
                     <img src="img/ico_tdd.png" alt="" class="img-skills">
 
                     <div>
                         <h1 class="text-skills">TDD</h1>
                         <div class="barra"></div>
                     </div>
-                </div>
-                <div class="box-skills">
+                </article>
+                <article class="box-skills">
                     <img src="img/ico_restapi.png" alt="" class="img-54">
 
                     <div>
                         <h1 class="text-skills">Rest API</h1>
                         <div class="barra"></div>
                     </div>
-                </div>
-                <div class="box-skills">
+                </article>
+                <article class="box-skills">
                     <img src="img/ico_ux.png" alt="" class="img-54">
 
                     <div>
                         <h1 class="text-skills">UX</h1>
                         <div class="barra"></div>
                     </div>
-                </div>
+                </article>
             </div>    
-        
+        </div>
+    </section>
 
-            </div>
-        </section>
+    <section class="section-projects">
+        <h3 class="top-text">Projetos</h3>
+
+        <div class="container-img">
+            <a href="" class="projects-img"><img src="img/firedlabs.png"></a>
+            <a href=""  class="projects-img"><img src="img/collabcode.png"></a>
+            <a href="" class="projects-img"><img src="img/joao-icon.png"></a>
+        </div>
+
+    </section>
    
 
 </body>
