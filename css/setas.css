@@ -1,0 +1,19 @@
+.seta-left {
+    margin-bottom: 45px;
+    margin-left: 15px;
+    transition: .2s ease-in-out;
+}
+
+.seta-right {
+    margin-bottom: 45px;
+    margin-right: 15px;
+    transition: .2s ease-in-out;
+}
+
+.seta-left:hover{
+    scale: 1.1;
+
+}
+.seta-right:hover {
+    scale: 1.1;
+}

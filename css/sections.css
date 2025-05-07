@@ -19,3 +19,11 @@
     background-color: #000;
     border-bottom: 10px #F25A70 solid;
 }
+
+.section-carrosel{
+    height: 785px;
+    background-color: #7C5E99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+.pontos-left {
+    position: absolute;
+    display: flex;
+    width: 40px;
+    gap: 5px;
+    top: 34px;
+
+}
+
+.pontos-left div {
+    width: 10px;
+    height: 5px;
+    background-color: black;
+}
+
+.pontos-right {
+    position: absolute;
+    display: flex;
+    width: 55px;
+    gap: 5px;
+    right: 0;
+    top: 34px;
+}
+
+.pontos-right div {
+    width: 10px;
+    height: 5px;
+    background-color: black;
+}
+
+
+.pont-vert {
+    position: absolute;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.pont-vert div {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+
+}
