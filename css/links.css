@@ -11,19 +11,4 @@
 }
 
 
-.pont::before {
-    display: inline-block;
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: #0000CD;
-    margin-right: 10px;
-    transition: .2s ease-in-out;
-
-}
-
-.pont:hover::before {
-    background-color: #00BFFF;
-    
-  
-}                    
+        

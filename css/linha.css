@@ -1,11 +1,9 @@
 .linha {
     position: absolute;
-    width: calc(100vw - 100px); /* ocupa toda a tela, menos 40px de cada lado */
+    width: calc(100vw - 100px);
     height: 5px;
     background-color: black;
     top: 34px;
     left: 50%;
     transform: translateX(-50%);
-
-   
 }

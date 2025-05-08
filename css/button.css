@@ -1,4 +1,4 @@
-.button1 {
+#button1 {
     display: inline-block;
     line-height: 60px;
     padding-right: 20px;
@@ -10,15 +10,13 @@
     transition: .2s ease-in-out;
 }
 
-
-.button1:hover {
+#button1:hover {
     background-color: #00BFFF;
-
 }
 
 
 
-.first-button {
+.first-button,.second-button {
     display: flex;
     line-height: 60px;
     padding-right: 20px;
@@ -28,25 +26,8 @@
     transition: .2s ease-in-out;
 }
 
-.second-button {
-    display: flex;
-    line-height: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color:#0000CD;
-    box-shadow: 5px 5px 0px black;
-    top: 418px;
-    left: 462px;
-    transition: .2s ease-in-out;
-
-}
-
-.second-button:hover {
+.second-button:hover,.first-button:hover  {
     background-color: #00BFFF;
     transition: .2s ease-in-out;
 }
 
-.first-button:hover {
-    background-color: #00BFFF;
-    transition: .2s ease-in-out;
-}

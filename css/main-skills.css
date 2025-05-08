@@ -1,9 +1,4 @@
-
-.coluna-2 {
-    margin-left: 90px;
-}
-
-.container-skills {
+.main-skills {
     margin: auto;
     display: flex;
     width: 960px;
@@ -36,4 +31,8 @@
     width: 430px;
     height: 90px;
     margin-bottom: 40px;
+}
+
+.coluna-2 {
+    margin-left: 90px;
 }
