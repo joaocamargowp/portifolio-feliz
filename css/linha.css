@@ -1,9 +1,8 @@
 .linha {
     position: absolute;
-    width: calc(100vw - 100px);
+    width: calc(100% - 80px);
     height: 5px;
     background-color: black;
     top: 34px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 40px;
 }

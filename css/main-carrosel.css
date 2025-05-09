@@ -10,11 +10,11 @@
 }
 
 .time-carrosel {
-    width: auto;
+    width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+     overflow: hidden;
+   
+
 }
 
 
@@ -25,6 +25,14 @@
     flex-direction: column; 
     justify-content: space-between;
     align-items: center;
+}
+
+.carrosel-over {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 2s ease;
+   
 }
 
 .carrosel-data {
@@ -40,3 +48,4 @@
     margin-left: 80px;
     margin-top: 50px;
 }
+
