@@ -23,9 +23,25 @@
 }
 
 .section-carrosel{
+    position: relative;
     height: 785px;
     background-color: #7C5E99;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section-carrosel::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to bottom, #7C5E99, red);
+}
+
+.footer {
+    background-color: #3A4042;
+    width: 100%;
 }

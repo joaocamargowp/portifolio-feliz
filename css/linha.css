@@ -6,3 +6,12 @@
     top: 34px;
     left: 40px;
 }
+
+.linha.-border {
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    top: 101.2%;
+    left: 0;
+
+}
