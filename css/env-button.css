@@ -1,0 +1,19 @@
+.bnt-enviar {
+    background-color: #F25A70;
+    border: none;
+    color: white;
+    font-family: 'Fira code', monospace;
+    width: 1360px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 300;
+    box-shadow: 5px 5px 0px black;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    transition: .2s ease-in-out;
+}
+
+.bnt-enviar:hover {
+    background-color: #7C5E99;
+    
+}
