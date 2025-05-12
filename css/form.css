@@ -9,10 +9,6 @@
 }
 
 
-.form-group {
-    display: flex;
-    flex-direction: column;
-}
 .form input[type="text"], .form input[type="email"], textarea[name="message"] {
      display: flex;
     align-items: center;
@@ -23,6 +19,7 @@
     width: 1360px;
     font-size: 25px;
     padding-left: 5px;
+    margin-bottom: 20px;
 }
 
 
